@@ -69,6 +69,14 @@ checksum = "f0a01e0497841a3b2db4f8afa483cce65f7e96a3498bd6c541734792aeac8fe7"
 name = "ham_bands"
 version = "0.1.0"
 dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "ham_bands_nif"
+version = "0.1.0"
+dependencies = [
+ "ham_bands",
  "rustler",
  "serde",
  "serde_rustler",
